@@ -1,0 +1,373 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*------------------------------------- Styles -------------------------------------*/
+/*
+lite  -  #C4C5D9
+lite blue  -  #797A8E
+medium  -  #444559
+dark  -  #0C0D21
+very dark  -  #000012
+red  -  #0C0D21
+
+main font 
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Play', sans-serif;
+font-family: 'Cuprum', sans-serif;
+
+ sub font 
+font-family: 'Play', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Cuprum', sans-serif;*/
+
+
+/*------------------------------------- Global -------------------------------------*/
+
+html {
+	height: 100%;
+
+}
+
+body {
+	background: url(../Img/DoylePortfolio_NavBackground.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Play', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+	color: #C4C5D9;
+	
+}
+
+a, li {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+.clearfix {
+	clear: both;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+
+}
+
+.container {
+	position: relative;
+	width: 85%;
+	margin: 0 auto;
+	
+}
+
+.content {
+	padding-bottom: 50px;
+
+}
+
+
+
+/*------------------------------------- Navigation Banner -------------------------------------*/
+
+
+#banner {
+	position: fixed;
+	width: 100%;
+	height: 7em;
+	top: 1em;
+	background: rgb(121,122,142); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(121,122,142,1) 0%, rgba(68,69,89,1) 50%, rgba(121,122,142,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(121,122,142,1)), color-stop(50%,rgba(68,69,89,1)), color-stop(100%,rgba(121,122,142,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(121,122,142,1) 0%,rgba(68,69,89,1) 50%,rgba(121,122,142,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(121,122,142,1) 0%,rgba(68,69,89,1) 50%,rgba(121,122,142,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(121,122,142,1) 0%,rgba(68,69,89,1) 50%,rgba(121,122,142,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(121,122,142,1) 0%,rgba(68,69,89,1) 50%,rgba(121,122,142,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#797a8e', endColorstr='#797a8e',GradientType=0 ); /* IE6-9 */
+	color: #C4C5D9;
+	box-sizing: border-box;
+	overflow: none;
+	
+
+}
+
+.title {
+	position: relative;
+	float: left;
+	top: -17px;
+	max-height: 100%;
+	font-size: 900%;	
+	text-shadow: 0 0 3px #DC143C, 0 0 10px #0C0D21;
+	
+
+}
+
+nav > ul > li > a {
+	font-family: 'Play', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+	color: #000012;
+	font-size: 2.3em;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #0C0D21;
+	
+
+
+}
+
+nav > ul > li {
+	position: relative;
+	float: right;
+	padding: 8px 5px;
+	color: #05061A;
+	top: 3.5em;
+	margin: 0 20px;
+	box-sizing: border-box;
+	
+}
+
+nav > ul > li:hover {
+	border-bottom: 3px solid #2E180D;
+	box-shadow: 0 0 3px #DC143C, 0 0 10px #0C0D21;
+
+}
+
+nav > ul > li > a:hover {
+	text-shadow: 0 0 3px #DC143C, 0 0 10px #0C0D21;
+
+}
+
+.active {
+	border-bottom: 3px solid #2E180D;
+	box-shadow: 0 0 3px #DC143C, 0 0 10px #0C0D21;
+
+}	
+
+.active > a {
+	text-shadow: 0 0 3px #DC143C, 0 0 10px #0C0D21;
+
+}
+	
+
+
+
+
+
+/*------------------------------------- Content -------------------------------------*/
+
+
+
+
+
+/*------------------------------------- Footer -------------------------------------*/
+
+footer {
+	position: absolute;
+	z-index: 999999;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #444559;
+	margin-bottom: 10px;
+
+}
+
+#footer-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.social {
+	position: relative;
+	float: left;
+	min-width: 29%;
+	border-left: 1px solid #797A8E;
+	border-right: 1px solid #797A8E;
+	text-align: center;
+	line-height: 1.3em;
+	
+}
+
+.social > ul > li a {
+	font-size: 2em;
+
+
+}
+
+.social > ul > li {
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	
+
+}
+
+.fa-twitter {
+	color: #329BC2;
+}
+
+.fa-twitter:hover {
+	text-shadow: 0 0 5px #DC143C, 0 0 10px #0C0D21;
+}
+
+.fa-facebook {
+	color: #46629E;
+}
+
+.fa-facebook:hover {
+	text-shadow: 0 0 5px #DC143C, 0 0 10px #0C0D21;
+}
+
+.fa-google-plus {
+	color: #DD4B39;
+
+}
+
+.fa-google-plus:hover {
+	text-shadow: 0 0 5px #DC143C, 0 0 10px #0C0D21;
+}
+
+.fa-linkedin {
+	color: #1C87BD;
+}
+
+.fa-linkedin:hover {
+	text-shadow: 0 0 5px #DC143C, 0 0 10px #0C0D21;
+}
+
+.fa-github {
+	color: #BBBBBB;
+
+}
+
+.fa-github:hover {
+	text-shadow: 0 0 5px #DC143C, 0 0 10px #0C0D21;
+}
+
+.copyright {
+	position: relative;
+	float: none;
+	width: 29%;
+	margin: 5px auto 0 auto;
+	text-align: center;
+	line-height: 1.3em;
+	border-left: 1px solid #797A8E;
+	border-right: 1px solid #797A8E;
+	color: #C4C5D9;
+	
+}
+
+.doyleware {
+	font-family: Raleway;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+	
+}
+
+.doyleware a {
+	color: #05061A;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+.doyleware a:hover {
+	border-bottom: 2px solid #05061A;
+	text-shadow: 0 0 5px #DC143C, 0 0 10px #0C0D21;
+
+}
+
+
+.policy {
+	position: relative;
+	float: right;
+	width: 29%;
+	height: 2em;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	padding-top: 10px;	
+	border-left: 1px solid #797A8E;
+	border-right: 1px solid #797A8E;
+
+}
+
+.policy > p {
+	padding-top: 3px;
+}
+
+.policy > p > a {
+	color: #05061A;
+	font-family: 'Play', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.policy > p > a:hover {
+	border-bottom: 2px solid #05061A;
+	text-shadow: 0 0 3px #DC143C, 0 0 10px #0C0D21;
+
+}
