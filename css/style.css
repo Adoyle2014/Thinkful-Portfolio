@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title:hover {
-	text-shadow: 0px 2px 3px #fff, 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+	
 	cursor: default;
 }
 
@@ -252,6 +252,7 @@ nav > ul > li > a:hover {
 	text-shadow: 2px 2px 4px #30162A;
 	box-sizing: border-box;
 	padding-left: 50px;
+	cursor: default;
 	
 
 }
@@ -310,7 +311,7 @@ footer {
 	margin-top: 125px;
 	border: 2px solid #30162A;
 	box-shadow: 0 0 5px #DC143C, 0 0 10px #0C0D21;
-
+	cursor: default;
 }
 
 #footer-container {
