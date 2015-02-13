@@ -74,7 +74,7 @@ font-family: 'Cuprum', sans-serif;*/
 /*------------------------------------- Global -------------------------------------*/
 
 html {
-	height: 100%;
+	
 
 }
 
@@ -85,10 +85,12 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	font-family: 'Play', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	max-height: 1000px;
+	-webkit-font-smoothing: antialiased;	
 	color: #C4C5D9;
 	overflow-x: hidden;
+	position: absolute;
+	max-height: 1000px;
+	box-sizing: border-box;
 	
 }
 
@@ -123,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content {
-	padding-bottom: 50px;
+	
 
 }
 
@@ -227,7 +229,7 @@ nav > ul > li > a:hover {
 	width: 80%;
 	height: 600px;
 	margin: 0 auto;
-	background: url(../img/background.jpg) no-repeat;
+	background: url(../Img/background.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -249,6 +251,7 @@ nav > ul > li > a:hover {
 	top: -350px;
 	text-shadow: 2px 2px 4px #30162A;
 	box-sizing: border-box;
+	padding-left: 50px;
 	
 
 }
@@ -260,25 +263,24 @@ nav > ul > li > a:hover {
 }
 
 #designer-text {
-	
+	position: absolute;
 	font-size: 1.5em;
 	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 125px;
 	text-align: left;
 	line-height: 1.8em;
+	margin-top: 85px;
+
 
 
 }
 
 #designer-hello {
-	
-	
-margin-top: 50px;
+	position: absolute;	
+	margin-top: 50px;
 	font-size: 1.5em;
 	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 125px;
 	text-align: left;
 	line-height: 1.2em;
 }
@@ -300,14 +302,12 @@ margin-top: 50px;
 /*------------------------------------- Footer -------------------------------------*/
 
 footer {
-	position: absolute;
-	z-index: 999999;
-	bottom: 0;
-	left: 0;
+	position: relative;
+	z-index: 999999;	
 	width: 100%;
 	height: 50px;
-	background-color: #444559;
-	margin-bottom: 10px;
+	background-color: #444559;	
+	margin-top: 125px;
 	border: 2px solid #30162A;
 	box-shadow: 0 0 5px #DC143C, 0 0 10px #0C0D21;
 
